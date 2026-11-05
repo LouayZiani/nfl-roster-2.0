@@ -23,7 +23,6 @@ function Login() {
     <div className="login">
       <form className="form login-card" onSubmit={handleSubmit}>
         <h1>Log in</h1>
-        <p className="muted">Save favorite players and build your own depth chart. Coming soon.</p>
         <FormField label="Email">
           <input name="email" type="email" value={form.email} onChange={handleChange} placeholder="you@example.com" />
         </FormField>
